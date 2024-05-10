@@ -1,7 +1,7 @@
 function mockRegister(username, password) {
   setTimeout(() => {
     console.log(`User ${username} registered successfully.`);
-  }, 1000);
+  }, 2000);
 }
 
-mockRegister('woxer', 'password123');
+mockRegister('woxer77', 'password123');
