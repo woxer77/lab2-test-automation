@@ -11,6 +11,8 @@ function fetchPosts() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(mockDB);
+
+      console.log('Posts fetched successfully.');
     }, 2000);
   });
 }
